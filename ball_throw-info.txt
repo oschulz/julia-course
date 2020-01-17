@@ -1,0 +1,7 @@
+Framerate: 240 fps (or exactly 29.956 fps * 8 ?)
+Ball diameter: 60 mm
+Ball weight: 7.1 g
+Distance camera to ball: approx. 1.72 m
+Distance camera to cabinet door: 1.82 m
+Cabinet door height: 1.83 m
+Cabinet width two middle doors: 0.794 m
