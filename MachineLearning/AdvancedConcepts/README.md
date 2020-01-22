@@ -30,3 +30,9 @@ Content:
 * Static modeling language
 * Robotic scene reconstruction
 
+## Differential programming with Zygote
+
+Content: 
+
+* Neural ordinary differential equations
+* Reinforcement learning control vs. probabilistic programming
