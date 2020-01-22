@@ -10,13 +10,23 @@ Content:
 
 Content:
 
-* Trust Region Policy Optimization
-* Proximal Policy Optimization
-* Model-Agnostic Meta-Learning with Flux
+* Trust Region Policy Optimization (TRPO)
+* Proximal Policy Optimization (PPO)
+* Model-Agnostic Meta-Learning (MAML) with Flux
 
 ## Bayesian deep learning with Turing and Flux
 
 Content:
 
+* Basics of Turing
 * Bayesian neural networks
 * Variational inference on generic bayesian neural networks
+
+## Solving inverse problems with Gen
+
+Content:
+
+* Modeling in Gen
+* Static modeling language
+* Robotic scene reconstruction
+
