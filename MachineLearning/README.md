@@ -10,7 +10,8 @@ Tutorials on machine learning in Julia including the use of:
 
 # Subsections
 
-Each subsection is composed of an introductory presentation and a number of tutorials to engage with the code and concepts.
+Each subsection is composed of an introductory presentation and a number of tutorials to engage with the code and concepts. The split
+between "basic" and "advanced" content is mostly arbitrary and is done for the purpose of teaching flow.
 
 ## Basic Tutorials
 
