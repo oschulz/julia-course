@@ -18,11 +18,10 @@ between "basic" and "advanced" content is mostly arbitrary and is done for the p
 * Regression in Flux
 * Classification in Flux
 * Gaussian processes using Stheno
-* Variational inference in Flux
 
 ## Advanced Tutorials
 
-* Amortized inference
+* Variational inference and amortized inference in Julia
 * Reinforcement learning and metalearning in Flux
 * Bayesian deep learning with Turing and Flux
 * Solving inverse problems with Gen
