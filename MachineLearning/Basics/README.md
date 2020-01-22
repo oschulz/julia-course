@@ -17,6 +17,6 @@ Content:
 
 Content:
 
-* Fitting a gaussian process
-* Approximate Bayesian inference on the hyperparameters of a gaussian process
-* Learning kernels of gaussian processes (Bayesian nonparametrics)
+* Fitting a Gaussian process
+* Approximate Bayesian inference on the hyperparameters of a Gaussian process
+* Learning kernels of Gaussian processes (Bayesian nonparametrics)
