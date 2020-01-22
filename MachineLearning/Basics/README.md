@@ -13,3 +13,10 @@ Content:
 * Classifying MNIST digits using a multi-layer-perceptron (MLP)
 * Classification with a convolutional neural network
 
+## Gaussian processes in Stheno
+
+Content:
+
+* Fitting a gaussian process
+* Approximate Bayesian inference on the hyperparameters of a gaussian process
+* Learning kernels of gaussian processes (Bayesian nonparametrics)
