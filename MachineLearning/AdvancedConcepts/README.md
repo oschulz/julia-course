@@ -14,3 +14,9 @@ Content:
 * Proximal Policy Optimization
 * Model-Agnostic Meta-Learning with Flux
 
+## Bayesian deep learning with Turing and Flux
+
+Content:
+
+* Bayesian neural networks
+* Variational inference on generic bayesian neural networks
