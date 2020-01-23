@@ -6,6 +6,7 @@ Tutorials on machine learning in Julia including the use of:
 * [Stheno](https://github.com/willtebbutt/Stheno.jl)
 * [Turing](https://github.com/TuringLang/Turing.jl)
 * [Gen](https://github.com/probcomp/Gen)
+* [DiffEqFlux](https://github.com/JuliaDiffEq/DiffEqFlux.jl)
 * [Zygote](https://github.com/FluxML/Zygote.jl)
 
 # Subsections
