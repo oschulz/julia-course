@@ -4,7 +4,7 @@ Content:
 
 * Linear regression
 * Logistic regression
-* Hierarchical linear regression
+* Bayesian linear regression
 
 ## Classification in Flux
 
@@ -19,4 +19,4 @@ Content:
 
 * Fitting a Gaussian process
 * Approximate Bayesian inference on the hyperparameters of a Gaussian process
-* Learning kernels of Gaussian processes (Bayesian nonparametrics)
+* Sensor fusion with Stheno
