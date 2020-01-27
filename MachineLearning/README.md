@@ -22,8 +22,6 @@ between "basic" and "advanced" content is mostly arbitrary and is done for the p
 
 ## Advanced Tutorials
 
-* Variational inference and amortized inference in Julia
-* Reinforcement learning and metalearning in Flux
+* Data-driven proposals in Gen
 * Bayesian deep learning with Turing and Flux
-* Solving inverse problems with Gen
 * Differential programming with Zygote
