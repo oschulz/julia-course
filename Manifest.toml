@@ -152,6 +152,12 @@ git-tree-sha1 = "16d4acb3d37dc05b714977ffefa8890843dc8985"
 uuid = "d5fb7624-851a-54ee-a528-d3f3bac0b4a0"
 version = "0.2.3"
 
+[[CSSUtil]]
+deps = ["Colors", "Compat", "JSON", "Measures", "Pkg", "WebIO"]
+git-tree-sha1 = "ff13fd99e4dd54f56eb064815f843bc992a871a2"
+uuid = "70588ee8-6100-5070-97c1-3cb50ed05fe8"
+version = "0.1.0"
+
 [[CUDAapi]]
 deps = ["Libdl", "Logging"]
 git-tree-sha1 = "56a813440ac98a1aa64672ab460a1512552211a7"
@@ -720,6 +726,18 @@ git-tree-sha1 = "c8aebfbdbb2f12665448de007f635a1910b476e4"
 uuid = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 version = "0.6.11"
 
+[[ImageMagick]]
+deps = ["FileIO", "ImageCore", "ImageMagick_jll", "InteractiveUtils", "Libdl", "Pkg", "Random"]
+git-tree-sha1 = "6952114380957cbd5858164a909c0d5a1f902031"
+uuid = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+version = "1.1.2"
+
+[[ImageMagick_jll]]
+deps = ["JpegTurbo_jll", "Libdl", "Libtiff_jll", "Pkg", "Zlib_jll", "libpng_jll"]
+git-tree-sha1 = "a94eae39cbdc3158c89b88615a894519c65b5489"
+uuid = "c73af94c-d91f-53ed-93a7-00f77d67a9d7"
+version = "6.9.10-12+0"
+
 [[ImageMetadata]]
 deps = ["AxisArrays", "ColorVectorSpace", "ImageAxes", "ImageCore", "IndirectArrays"]
 git-tree-sha1 = "5bedd77cb80ce2c51889414cd2de9e300217ee8d"
@@ -785,6 +803,18 @@ git-tree-sha1 = "fb8e1c7a5594ba56f9011310790e03b5384998d6"
 uuid = "1d5cc7b8-4909-519e-a0f8-d0f5ad9712d0"
 version = "2018.0.3+0"
 
+[[Interact]]
+deps = ["CSSUtil", "InteractBase", "JSON", "Knockout", "Observables", "OrderedCollections", "Reexport", "WebIO", "Widgets"]
+git-tree-sha1 = "381c584142ac744bcc23af64bff3e3dc44d7f632"
+uuid = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
+version = "0.10.3"
+
+[[InteractBase]]
+deps = ["Base64", "CSSUtil", "Colors", "Dates", "JSExpr", "JSON", "Knockout", "Observables", "OrderedCollections", "Random", "WebIO", "Widgets"]
+git-tree-sha1 = "4528a536425453c9658ad00cf097c979cc0fa03f"
+uuid = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
+version = "0.10.3"
+
 [[InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -829,6 +859,12 @@ git-tree-sha1 = "95fd5d7f129918a75d0535aaaf5b8e235e6e0b0b"
 uuid = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 version = "0.9.1"
 
+[[JSExpr]]
+deps = ["JSON", "MacroTools", "Observables", "WebIO"]
+git-tree-sha1 = "ca99c457d67f7950e405f26044f4e38658a75e8a"
+uuid = "97c1335a-c9c5-57fe-bc5d-ec35cebe8660"
+version = "0.5.1"
+
 [[JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
 git-tree-sha1 = "b34d7cef7b337321e97d22242c3c2b91f476748e"
@@ -852,6 +888,12 @@ deps = ["Distributions", "FFTW", "Interpolations", "Optim", "StatsBase", "Test"]
 git-tree-sha1 = "c1048817fe5711f699abc8fabd47b1ac6ba4db04"
 uuid = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 version = "0.5.1"
+
+[[Knockout]]
+deps = ["JSExpr", "JSON", "Observables", "Test", "WebIO"]
+git-tree-sha1 = "53533b51d4b6964eca3065b0834e9f61ed2f7515"
+uuid = "bcebb21b-c2e3-54f8-a781-646b90f6d2cc"
+version = "0.2.3"
 
 [[LLVM]]
 deps = ["CEnum", "Libdl", "Printf", "Unicode"]
