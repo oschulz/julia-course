@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Variational inference and amortized inference in Julia
 
 Content:
@@ -14,6 +15,8 @@ Content:
 * Proximal Policy Optimization (PPO)
 * Model-Agnostic Meta-Learning (MAML) with Flux
 
+=======
+>>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 ## Bayesian deep learning with Turing and Flux
 
 Content:
@@ -22,6 +25,7 @@ Content:
 * Bayesian neural networks
 * Variational inference on generic bayesian neural networks
 
+<<<<<<< HEAD
 ## Solving inverse problems with Gen
 
 Content:
@@ -30,6 +34,8 @@ Content:
 * Static modeling language
 * Robotic scene reconstruction
 
+=======
+>>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 ## Differential programming with Zygote and DiffEqFlux
 
 Content: 

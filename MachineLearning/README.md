@@ -22,6 +22,9 @@ between "basic" and "advanced" content is mostly arbitrary and is done for the p
 
 ## Advanced Tutorials
 
+<<<<<<< HEAD
 * Data-driven proposals in Gen
+=======
+>>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 * Bayesian deep learning with Turing and Flux
 * Differential programming with Zygote
