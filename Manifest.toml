@@ -128,6 +128,12 @@ git-tree-sha1 = "5b08ed6036d9d3f0ee6369410b830f8873d4024c"
 uuid = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 version = "0.5.8"
 
+[[BlockArrays]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "54a8bc44883dc33002bd954ba6d336ee86ec62d1"
+uuid = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
+version = "0.11.1"
+
 [[Blosc]]
 deps = ["BinaryProvider", "CMakeWrapper", "Compat", "Libdl"]
 git-tree-sha1 = "71fb23581e1f0b0ae7be8ccf0ebfb3600e23ca41"
@@ -1180,6 +1186,12 @@ git-tree-sha1 = "350ac618f41958e6e0f6b0d2005ae4547eb1b503"
 uuid = "2bd173c7-0d6d-553b-b6af-13a54713934c"
 version = "1.1.1"
 
+[[ORCA]]
+deps = ["Conda", "HTTP", "JSON", "PlotlyBase"]
+git-tree-sha1 = "b4388659d0dfaa4579c3e6ff72b3f6e706019440"
+uuid = "47be7bcc-f1a6-5447-8b36-7eeeff7534fd"
+version = "0.3.1"
+
 [[Observables]]
 deps = ["Test"]
 git-tree-sha1 = "dc02cec22747d1d10d9f70d8a1c03432b5bfbcd0"
@@ -1314,6 +1326,12 @@ deps = ["Colors", "Dates", "Printf", "Random", "Reexport"]
 git-tree-sha1 = "22bd7d0a1f4665d66317d6c89a57f6bba9f2560d"
 uuid = "995b91a9-d308-5afd-9ec6-746e21dbc043"
 version = "0.6.2"
+
+[[PlotlyBase]]
+deps = ["Dates", "DelimitedFiles", "DocStringExtensions", "JSON", "LaTeXStrings", "Logging", "Requires", "Statistics", "UUIDs"]
+git-tree-sha1 = "3bf75544fb56640f6f7ccd95e052b12589cc7474"
+uuid = "a03496cd-edff-5a9b-9e67-9cda94a718b5"
+version = "0.3.0"
 
 [[Plots]]
 deps = ["Base64", "Contour", "Dates", "FFMPEG", "FixedPointNumbers", "GR", "GeometryTypes", "JSON", "LinearAlgebra", "Measures", "NaNMath", "Pkg", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "Reexport", "Requires", "Showoff", "SparseArrays", "Statistics", "StatsBase", "UUIDs"]
@@ -1600,6 +1618,12 @@ deps = ["Rmath", "SpecialFunctions"]
 git-tree-sha1 = "79982835d2ff3970685cb704500909c94189bde9"
 uuid = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 version = "0.9.3"
+
+[[Stheno]]
+deps = ["BlockArrays", "Distances", "Distributions", "FillArrays", "IRTools", "LinearAlgebra", "MacroTools", "Random", "RecipesBase", "Statistics", "StatsFuns", "Zygote"]
+git-tree-sha1 = "68e5308141940098c214f0f9c73060837c7d9583"
+uuid = "8188c328-b5d6-583d-959b-9690869a5511"
+version = "0.3.2"
 
 [[StructArrays]]
 deps = ["PooledArrays", "Tables", "WeakRefStrings"]
