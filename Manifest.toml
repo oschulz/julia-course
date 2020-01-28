@@ -31,10 +31,10 @@ uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 version = "1.0.0"
 
 [[AdvancedHMC]]
-deps = ["ArgCheck", "InplaceOps", "LazyArrays", "LinearAlgebra", "Parameters", "ProgressMeter", "Random", "Requires", "Statistics", "StatsBase", "StatsFuns"]
-git-tree-sha1 = "0340a7d9d07df5397459bf7747b9f4bb3897d2ae"
+deps = ["ArgCheck", "InplaceOps", "LazyArrays", "LinearAlgebra", "Parameters", "ProgressMeter", "Random", "Statistics", "StatsBase", "StatsFuns"]
+git-tree-sha1 = "c11e25e232f5d56f1dc154e6aaed428d0397b5bc"
 uuid = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
-version = "0.2.20"
+version = "0.2.7"
 
 [[ArgCheck]]
 deps = ["Random"]
@@ -74,9 +74,9 @@ version = "0.1.5"
 
 [[ArraysOfArrays]]
 deps = ["Requires", "Statistics", "UnsafeArrays"]
-git-tree-sha1 = "e367aef0290f4b1146919b577603927e7489908e"
+git-tree-sha1 = "f999f98569521895b7a6d7a62bf8ff76297a4664"
 uuid = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
-version = "0.4.3"
+version = "0.4.1"
 
 [[AssetRegistry]]
 deps = ["Distributed", "JSON", "Pidfile", "SHA", "Test"]
@@ -130,9 +130,9 @@ version = "0.5.8"
 
 [[BlockArrays]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "54a8bc44883dc33002bd954ba6d336ee86ec62d1"
+git-tree-sha1 = "991b73d29f2166fb8acc2ac9e0093a8b9143cc96"
 uuid = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
-version = "0.11.1"
+version = "0.10.2"
 
 [[Blosc]]
 deps = ["BinaryProvider", "CMakeWrapper", "Compat", "Libdl"]
@@ -411,15 +411,15 @@ version = "0.6.4"
 
 [[Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns"]
-git-tree-sha1 = "71a3f1ae1fca9ed876edfbc2079d7b7c27e2e3d5"
+git-tree-sha1 = "e063d0b5d27180b98edacd2b1cb90ecfbc171385"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.22.3"
+version = "0.21.12"
 
 [[DistributionsAD]]
 deps = ["Combinatorics", "Distributions", "ForwardDiff", "LinearAlgebra", "PDMats", "Random", "StatsFuns", "Tracker", "Zygote"]
-git-tree-sha1 = "b79e6f4e14626c665b61b349e8cfe26d3e3c0a30"
+git-tree-sha1 = "85c5cfdf84a41e3f3453bf172023885666ba0bb3"
 uuid = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
-version = "0.2.0"
+version = "0.1.4"
 
 [[DocStringExtensions]]
 deps = ["LibGit2", "Markdown", "Pkg", "Test"]
@@ -438,12 +438,6 @@ deps = ["Base64", "DocStringExtensions", "Documenter", "FileWatching", "LibGit2"
 git-tree-sha1 = "e3b2a338e7e1803713ae42e556643bf9ba004395"
 uuid = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 version = "0.1.4"
-
-[[DynamicPPL]]
-deps = ["AbstractMCMC", "Bijectors", "Distributions", "MacroTools"]
-git-tree-sha1 = "7068d40ded3582f708594de679ac255e04f34638"
-uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.1.1"
 
 [[ElasticArrays]]
 git-tree-sha1 = "5b5b7cb8cba44bcf337b8af0a1f3e57c89468660"
@@ -622,6 +616,14 @@ deps = ["ATK_jll", "Cairo_jll", "Fontconfig_jll", "FreeType2_jll", "FriBidi_jll"
 git-tree-sha1 = "19f11cf4e1b25ed45adb1c26c9877ebc212aca99"
 uuid = "77ec8976-b24b-556a-a1bf-49a033a670a6"
 version = "3.24.11+1"
+
+[[Gen]]
+deps = ["DataStructures", "Distributions", "FunctionalCollections", "JSON", "LinearAlgebra", "MacroTools", "Random", "ReverseDiff", "SpecialFunctions"]
+git-tree-sha1 = "8b1686eca997088b31541e4a2b92d479bf2de24d"
+repo-rev = "master"
+repo-url = "https://github.com/probcomp/Gen.git"
+uuid = "ea4f424c-a589-11e8-07c0-fd5c91b9da4a"
+version = "0.3.2"
 
 [[GenericSVD]]
 deps = ["LinearAlgebra"]
@@ -956,9 +958,9 @@ version = "1.0.3"
 
 [[LazyArrays]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "MacroTools", "StaticArrays"]
-git-tree-sha1 = "d10de258d0c999350d433e4eed35201c9d790bcd"
+git-tree-sha1 = "6e818d550c2158def13c236c3b825fc14995160c"
 uuid = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-version = "0.14.11"
+version = "0.15.0"
 
 [[LeftChildRightSiblingTrees]]
 deps = ["AbstractTrees"]
@@ -1485,10 +1487,16 @@ uuid = "b873ce64-0db9-51f5-a568-4457d8e49576"
 version = "0.2.3"
 
 [[Requires]]
-deps = ["Test"]
-git-tree-sha1 = "f6fbf4ba64d295e146e49e021207993b6b48c7d1"
+deps = ["UUIDs"]
+git-tree-sha1 = "999513b7dea8ac17359ed50ae8ea089e4464e35e"
 uuid = "ae029012-a4dd-5104-9daa-d747884805df"
-version = "0.5.2"
+version = "1.0.0"
+
+[[ReverseDiff]]
+deps = ["DiffResults", "DiffRules", "ForwardDiff", "FunctionWrappers", "LinearAlgebra", "NaNMath", "Random", "SpecialFunctions", "StaticArrays", "Statistics"]
+git-tree-sha1 = "6a5aae862f93c577f89a607334f09630439ec119"
+uuid = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+version = "1.0.0"
 
 [[Rmath]]
 deps = ["BinaryProvider", "Libdl", "Random", "Statistics"]
@@ -1620,10 +1628,10 @@ uuid = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 version = "0.9.3"
 
 [[Stheno]]
-deps = ["BlockArrays", "Distances", "Distributions", "FillArrays", "IRTools", "LinearAlgebra", "MacroTools", "Random", "RecipesBase", "Statistics", "StatsFuns", "Zygote"]
-git-tree-sha1 = "68e5308141940098c214f0f9c73060837c7d9583"
+deps = ["BlockArrays", "Distances", "Distributions", "LinearAlgebra", "MacroTools", "Random", "RecipesBase", "Statistics", "Zygote", "ZygoteRules"]
+git-tree-sha1 = "7c0e9d3225542c1204866ebfc1aed80f44a45337"
 uuid = "8188c328-b5d6-583d-959b-9690869a5511"
-version = "0.3.2"
+version = "0.5.0"
 
 [[StructArrays]]
 deps = ["PooledArrays", "Tables", "WeakRefStrings"]
@@ -1694,10 +1702,10 @@ uuid = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 version = "0.3.0"
 
 [[Turing]]
-deps = ["AbstractMCMC", "AdvancedHMC", "Bijectors", "BinaryProvider", "Distributions", "DistributionsAD", "DynamicPPL", "ForwardDiff", "Libtask", "LinearAlgebra", "LogDensityProblems", "MCMCChains", "MacroTools", "Markdown", "PDMats", "ProgressMeter", "Random", "Reexport", "Requires", "SpecialFunctions", "Statistics", "StatsFuns", "Tracker"]
-git-tree-sha1 = "dad8d83435397cac37521eb2ccd1acc1dc48f9a7"
+deps = ["AbstractMCMC", "AdvancedHMC", "Bijectors", "BinaryProvider", "Distributions", "DistributionsAD", "ForwardDiff", "Libtask", "LinearAlgebra", "LogDensityProblems", "MCMCChains", "MacroTools", "Markdown", "PDMats", "ProgressMeter", "Random", "Reexport", "Requires", "SpecialFunctions", "Statistics", "StatsFuns", "Tracker"]
+git-tree-sha1 = "cb9af9789a1bbf17ab1597990a0b82201b48cdae"
 uuid = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
-version = "0.8.3"
+version = "0.8.0"
 
 [[TypedTables]]
 deps = ["SplitApplyCombine", "Tables", "Unicode"]
