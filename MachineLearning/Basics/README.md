@@ -1,4 +1,13 @@
-## Regression in Flux
+## Presentation: Introduction to Flux
+
+Content:
+
+* CUDA integration of Julia
+* Automatic differentiation in Flux
+* Example: Constructing a classifier
+
+
+## Tutorial: Regression in Flux
 
 Content:
 
@@ -6,14 +15,16 @@ Content:
 * Logistic regression
 * Bayesian linear regression
 
-## Classification in Flux
+
+## Tutorial: Classification in Flux
 
 Content:
 
 * Classifying MNIST digits using a multi-layer-perceptron (MLP)
 * Classification with a convolutional neural network
 
-## Gaussian processes in Stheno
+
+## Tutorial: Gaussian processes in Stheno
 
 Content:
 
