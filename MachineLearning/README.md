@@ -12,7 +12,7 @@ Tutorials on machine learning in Julia including the use of:
 # Subsections
 
 Each subsection is composed of an introductory presentation and a number of tutorials to engage with the code and concepts. The split
-between "basic" and "advanced" content is mostly arbitrary and is done for the purpose of teaching flow.
+between "basic" and "advanced" content is mostly arbitrary and is done for the purpose of the teaching flow.
 
 ## Basic Tutorials
 
@@ -22,9 +22,6 @@ between "basic" and "advanced" content is mostly arbitrary and is done for the p
 
 ## Advanced Tutorials
 
-<<<<<<< HEAD
 * Data-driven proposals in Gen
-=======
->>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 * Bayesian deep learning with Turing and Flux
 * Differential programming with Zygote
