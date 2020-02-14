@@ -15,14 +15,6 @@ Content:
 * Bayesian neural networks
 * Variational inference on generic bayesian neural networks
 
-## Solving inverse problems with Gen
-
-Content:
-
-* Modeling in Gen
-* Static modeling language
-* Robotic scene reconstruction
-
 ## Differential programming with Zygote and DiffEqFlux
 
 Content: 
