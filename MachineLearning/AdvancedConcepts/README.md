@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-## Variational inference and amortized inference in Julia
+## Presentation: The Power of Gen - Data-Driven Proposals
 
 Content:
 
-* Variational inference
-* Importance-weighted variational inference
-* Data-driven proposals to amortize inference
+* Introduction to Probabilistic Programming
+* Architecture of Gen
+* Core-Abstractions of Gen
+* Data-Driven Proposals in Gen
 
-## Reinforcement learning and metalearning in Flux
-
-Content:
-
-* Trust Region Policy Optimization (TRPO)
-* Proximal Policy Optimization (PPO)
-* Model-Agnostic Meta-Learning (MAML) with Flux
-
-=======
->>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 ## Bayesian deep learning with Turing and Flux
 
 Content:
@@ -25,17 +15,6 @@ Content:
 * Bayesian neural networks
 * Variational inference on generic bayesian neural networks
 
-<<<<<<< HEAD
-## Solving inverse problems with Gen
-
-Content:
-
-* Modeling in Gen
-* Static modeling language
-* Robotic scene reconstruction
-
-=======
->>>>>>> 680361187b7aa1ac795c5102e3247b8ac8db3c98
 ## Differential programming with Zygote and DiffEqFlux
 
 Content: 
