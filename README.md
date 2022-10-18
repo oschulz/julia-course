@@ -90,7 +90,7 @@ instead.
 Download this course via `Git` and change into the "julia-course" directory:
 
 ```shell
-git clone https://github.com/legend-exp/julia-course.git
+git clone https://github.com/oschulz/julia-course.git
 cd julia-course
 ```
 
