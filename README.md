@@ -21,7 +21,7 @@ Julia is easy to install:
 
 * You may want to add the Julia "bin" directory to your `$PATH"`
 
-We highly recommend using Julia v1.8 or later to run the code in this course.
+We highly recommend using Julia v1.9 to run the code in this course.
 
 
 ### Installing Jupyter
