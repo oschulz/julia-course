@@ -1,5 +1,6 @@
 [deps]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 ArraysOfArrays = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 BAT = "c0cd4b16-88b7-57fa-983b-ab80aecada7e"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
@@ -53,3 +54,7 @@ Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 VideoIO = "d6d074c3-1acf-5d4c-9a43-ef38773959a2"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[compat]
+ArrayInterface = "5"
+OrdinaryDiffEq = "6"
